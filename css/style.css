@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Abel',
+        sans-serif;
+    background-color: #0A2244;
+    color: white;
+    min-height: 120px;
+    
+}
+
+.header {
+    max-width: 1365px;
+    margin-top: 20px
+}
+
+.head {
+    max-width: 1020px;
+    margin: auto;
+}
+
+.head .logo {
+    float: left;
+    width: 40%;
+    margin-top: 10px
+}
+
+.head .logo img {}
+
+.head .logo h1 {
+    font-size: 28px;
+    ;
+    margin-top: -10px;
+    display: inline-block;
+    position: absolute;
+    top: 58px
+}
+
+.head .menu {}
+
+.head .menu ul {}
+
+.head .menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 30px
+}
+
+.head .menu ul li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    padding: 10px 15px;
+    display: block
+}
+
+.menu ul li a.show {
+    display: none
+}
+
+.menu ul li .bar {}
+
+.menu ul li i {
+    font-size-adjust: 36px;
+    position: absolute;
+    right: 180px;
+    top: 48px
+}
+
+/****Header End *********/
+/***** First Mead *********/
+.first-mead {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.first-mead h1 {
+
+    font-weight: normal;
+    font-size: 42px;
+
+}
+
+.first-mead p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2A5DA3
+}
+
+.first-mead span {
+    color: #2A5DA3
+}
+
+.first-mead input {
+    background-color: #0A2345;
+    border: 1px solid #153B6D;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 18px 35px;
+    color: white;
+    font-size: 18px;
+    transition: all ease .5s;
+    cursor: pointer
+}
+
+.first-mead input:hover {
+    background-color: #153B6D;
+    color: dimgrey
+}
+
+/***.first-mead End *********/
+/***** .second *********/
+
+.second-section {
+    background-image: url(../images/banneer.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    max-width: 1365px;
+    margin-top: 150px;
+
+
+}
+
+.second-mead {
+    width: 1365px;
+    margin: auto;
+
+
+
+}
+
+.second-mead img {
+    width: 33%;
+    float: left;
+    height: 650px;
+    margin-top: -100px;
+
+
+}
+
+.second-mead .phone1 {
+    width: ;
+    430px;
+    margin-left: 102px;
+    margin-top: -155px;
+    height: 780px
+}
+
+.second-mead .phone2 {
+    width: 490px;
+    margin-right: -100px;
+    margin-left: -100px;
+    height: 850px;
+    margin-top: -190px
+}
+
+.second-mead .phone3 {
+    width: 430px;
+    margin-top: -155px;
+    height: 780px
+}
+
+
+
+/***.second-mead End *********/
+/***** .third-section *********/
+
+.three-sec {
+    margin-top: 100px;
+
+
+}
+
+.three-mead {}
+
+.three-mead img {
+    float: left;
+    width: 50%;
+    height: auto
+}
+
+.three-mead .right {
+    text-align: center;
+    padding-top: 220px;
+    padding-right: 50px;
+    padding-left: 50px
+}
+
+.three-mead .right h1 {
+    font-weight: normal;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.three-mead input {
+
+    background-color: #0A2345;
+    border: 1px solid #153B6D;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px 35px;
+    color: white;
+    font-size: 18px;
+    transition: all ease .5s;
+    cursor: pointer
+}
+
+
+.three-mead .right p {
+    font-size: 18px;
+    padding-left: 710px;
+    text-align: initial;
+    padding-right: 40px
+}
+
+.three-mead .right span {
+    color: #2A5B8E
+}
+
+
+
+/***.third-section End *********/
+/***** four section *********/
+
+
+.four-sec {}
+
+.four-mead {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 156px;
+    
+}
+
+.four-mead .sound {}
+
+.four-mead .four-first {
+    max-width: 33%;
+}
+
+.four-mead .first-four img {}
+
+.four-mead .first-four h1 {}
+
+.four-mead .first-four p {}
+
+.four-mead .second-four {
+    margin-top: -210px;
+    max-width: 33%;
+
+}
+
+.four-mead .second-four #phone {
+    height: 820px;
+    width: 650px;
+    margin-top: 76px;
+    position: absolute;
+    right: 28%;
+    z-index: 10
+}
+.four-mead .second-four #down{
+    width: 690px;
+    height: 120px;
+    margin-top: 660px;
+    margin-left: -172px;
+    position: absolute;
+    z-index: 3
+    
+}
+#down2 {
+    width: 490px;
+    height: 80px;
+    margin-top: 680px;
+    margin-left: -85px;
+    position: absolute;
+    z-index: 5
+    
+}
+
+
+.four-mead .sound {
+    padding: 40px
+}
+
+.four-mead .third-four {
+    max-width: 33%;
+    position: absolute;
+    right: 50px;
+    
+}
+
+.four-mead .third-four img {}
+
+.four-mead .third-four h1 {}
+
+.four-mead .third-four p {
+    text-align:justify
+        
+}
+ 
+
+
+/***. four section End *********/
+/***** five section *********/
+
+
+.five-sec{
+    margin-left: 82px;
+    margin-top: 300px
+}
+.five-mead{
+    
+}
+.five-mead .five-left{
+    float: left;
+    width: 30%;
+    padding-top: 50px;
+    position: absolute
+}
+.five-mead .five-left img{
+    padding: 30px 5px
+}
+.five-mead .five-left h1{
+    font-size: 28px
+}
+.five-mead .five-left p{
+    font-size: 18px;
+    opacity: 0.8
+}
+
+.five-mead .five-right {}
+.five-mead .five-right img {
+    margin-left:290px;
+    margin-top: -150px
+}
+
+
+
+/***. five section End *********/
+/***** six section *********/
+
+.six-sec{
+    max-width: 1365px;
+    height: 400px;
+    background: #061123;
+    margin-top: 50px
+}
+.six-mead{
+    text-align: center;
+    padding-top:120px
+    
+}
+
+.six-mead #in{
+    font-size: 22px;
+    color: #66778B
+}
+.six-mead img{
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: -225px
+    
+}
+.six-mead #symu{
+    position: absolute;
+right: 510px;
+    margin-top: -33px;
+    color: #1C3356;
+    font-weight: bold;
+    
+    
+    
+}
+.six-mead span {
+    opacity: 0.8;
+    color: #606F82
+}
+
+.ek{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #1D3253;
+   border-radius: 50px;
+
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 50px
+    
+}
+#eka{
+    background-color:#1D3253;
+    margin-left: 650px
+    
+}
+
+
+
+
+/***. six section End *********/
+/***** seven section *********/
+
+.seven-sec{
+    height: 1200px;
+    max-width: 1365px;
+    background: #010409
+
+
+}
+
+.seven-mead{text-align: center;
+padding-top: 50px}
+.seven-mead h1{
+    font-size: 28px;
+    color: #FFFEFF;
+    
+}
+.seven-mead p{
+    color: #6C7484;
+    margin-top: 20px;
+    font-size: 18px
+}
+.seven-mead .3phone{
+    width: 800px;
+    margin: auto;
+position: relative
+    }
+
+    .phones #onephone {
+        width: 33%;
+        float: left;
+        position: absolute;
+        left: 190px;
+        margin-top: 100px
+}
+
+    .phones #twophone {
+        position: absolute;
+        right: 280px;
+        margin-top: -100px
+    }
+
+    .phones #threephone {
+        position: absolute;
+        right: 190px;
+        margin-top: 100px
+}
+
+
+.seven-mead input{
+width: 180px;
+    height: 45px;
+    margin-top: 830px;
+    border: 1px solid #123A6B;
+    background: none;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 10px 15px 10px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+
+
+
+/***. seven section End *********/
+/***** footer section *********/
+
+
+.eight-sec{
+    max-width: 1365px;
+    height: 80px;
+        background: #010409
+}
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    border-top: 1px solid #080B0F;
+    
+    }
+
+.footer .footer-left { }
+
+    .footer .footer-left ul li {
+        list-style-type: none;
+
+        display: .footer 
+}
+
+.footer .footer-left ul li a{
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    padding-right: 10px;
+    color: white;
+    padding-top: 30px
+}
+.footer .footer-left ul li a:hover{
+    color: #123A6B;
+}
+
+.footer .footer-right p{
+    position: absolute;
+    right: 0;
+    padding: 28px 5px ;
+    font-size: 16px
+}.footer .footer-right span{
+    color: Red;
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+input:hover {
+    background-color: #153B6D;
+    color: dimgrey
+}
+
